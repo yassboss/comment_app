@@ -12,5 +12,5 @@ class Item < ApplicationRecord
     validates :price
   end
 
-  validates :category_id, numericality: { greater_than_or_equal_to:1 ,less_than_or_equal_to:10, message: "is invalid" }
+  validates :category_id, numericality: { greater_than_or_equal_to:1 ,less_than_or_equal_to:10, message: "を選択してください" }
 end
